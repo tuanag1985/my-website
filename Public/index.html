@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"> <!--dòng này bắt buộc để hiển thị đúng tiếng việt -->
+    <title>Website NodeJS</title> <!--tên tab khi mở -->
+    <meta name="description" content="Trang đăng nhập website NodeJS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--dùng co giãn theo đúng kích cỡ trên điện thoại -->
+    <link rel="stylesheet" href="style.css"> <!--gọi style.css -->
+</head>
+<body>
+<div class="login-container">
+    <h1>🎉 Chào mừng sinh viên!</h1>
+    <p>Website Node.js đầu tiên</p>
+    <h2>ĐĂNG NHẬP</h2>
+
+    <form method="POST" action="/login">
+        <div><label>Tài khoản:</label><br>
+        <input type="text" name="username" required><br>
+        </div><br>
+
+        <div>
+        <label>Mật khẩu:</label><br>
+        <input type="password" name="password" required><br>
+        </div><br>
+
+        <button type="submit">Đăng nhập</button>
+    </form>
+</div>
+</body>
+</html>
